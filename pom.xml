@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.github.jnoee</groupId>
+		<artifactId>xo-starter</artifactId>
+		<version>1.0.3-SNAPSHOT</version>
+	</parent>
+	<artifactId>xo-starter-auth</artifactId>
+	<packaging>pom</packaging>
+
+	<name>xo-starter-auth</name>
+	<description>xo-starter-auth</description>
+	<url>https://github.com/Jnoee/xo-starter-auth</url>
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+	<developers>
+		<developer>
+			<name>jnoee</name>
+			<email>jnoee@qq.com</email>
+		</developer>
+	</developers>
+
+	<scm>
+		<url>https://github.com/Jnoee/xo-starter-auth</url>
+		<connection>scm:git:https://github.com/Jnoee/xo-starter-auth.git</connection>
+		<developerConnection>scm:git:https://github.com/Jnoee/xo-starter-auth.git</developerConnection>
+	</scm>
+
+	<modules>
+		<module>xo-starter-auth-core</module>
+		<module>xo-starter-auth-server</module>
+		<module>xo-starter-auth-client</module>
+		<module>xo-starter-auth-feign</module>
+	</modules>
+</project>
